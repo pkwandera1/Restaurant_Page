@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+}
+.homepage {
+  background-image: url(./chicken-6832808_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -37px;
+}
+
+.title {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+.menupage {
+  background-image: url(./menu-3167861_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -37px;
+}
+
+.contactpage {
+  background-image: url(./contact-us-2993000_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -37px;
+}
+
+.item {
+  display: flex;
+}
+
+.menu-image {
+  width: auto;
+  max-height: 500px;
+}
+
+.menuitems {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+table {
+  min-width: 200px;
+}
+
+.drinks-image {
+  max-height: 400px;
+}
+
+.contacttitle {
+  margin-top: -260px;
+  color: rgb(236, 24, 9); 
+}
+
+.contactdiscription {
+  font-size: large;
+  color: rgb(236, 24, 9);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  padding-top: 10px;
+}
+
+nav button {
+  font-size: large;
+}
+
+nav button:hover {
+  cursor: pointer;
+}
+
+span {
+  color: white;
+}
