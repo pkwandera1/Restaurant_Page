@@ -4,7 +4,7 @@ const path = require('path');
    entry: './src/index.js',
    output: {
      filename: 'bundle.js',
-     path: path.resolve(__dirname, 'dist'),
+     path: path.resolve(__dirname, 'docs'),
    },
    plugins: [
     // Add the html-webpack-plugin and set its template option
